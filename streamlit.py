@@ -2,7 +2,7 @@ import streamlit as st
 import speech_recognition as sr
 from gtts import gTTS
 import pygame
-import pyautogui
+# import pyautogui
 import webbrowser
 import os
 import requests
@@ -148,9 +148,9 @@ def main():
                 elif "list tasks" in command:
                     respond("Sure. Your tasks are:")
                     # Insert code to list tasks here
-                elif "take a screenshot" in command:
-                    pyautogui.screenshot("screenshot.png")
-                    respond("I took a screenshot for you.")
+                # elif "take a screenshot" in command:
+                #     pyautogui.screenshot("screenshot.png")
+                #     respond("I took a screenshot for you.")
                 elif "open chrome" in command:
                     respond("Opening Chrome.")
                     webbrowser.open("http://www.youtube.com/@JakeEh")
