@@ -3,4 +3,4 @@ requests
 gtts
 pygame
 pyautogui
-os
+
