@@ -152,9 +152,9 @@ def main():
                 elif "take a screenshot" in command:
                     pyautogui.screenshot("screenshot.png")
                     respond("I took a screenshot for you.")
-                elif "open chrome" in command:
-                    respond("Opening Chrome.")
-                    webbrowser.open("http://www.youtube.com/@JakeEh")
+                elif "open browser" in command:
+                    respond("Opening browser")
+                    webbrowser.open("http://www.google.com")
                 elif "weather in" in command:
                     city = command.split("weather in", 1)[-1].strip()
                     weather_response = get_current_weather(api_key, city)
