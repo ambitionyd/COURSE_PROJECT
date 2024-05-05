@@ -1,0 +1,7 @@
+speech_recognition
+requests
+gtts
+pygame
+pyautogui
+webbrowser
+os
